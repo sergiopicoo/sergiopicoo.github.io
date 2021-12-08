@@ -3,13 +3,13 @@ body {
 }
   
 h1 {
-  color: navy;
+  color: MidnightBlue;
   margin-left: 20px;
 }
 
 #myDiv{
-  background-color: blue;
+  background-color: Lightgray;
   border-style: dotted;
-  border-color: gold;
+  border-color: MidnightBlue;
 }
 © 2021 GitHub, Inc.
