@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Coding Experience</title>
+<link rel="stylesheet" href="homepage.css">
+</head>
+
+<body>
+  <h1>Coding Experience</h1>
+  <div id="myDiv">
+    <h3>
+      Python Experience
+    </h3>
+    <p>
+      As part of an assignment of a coding course I am taking at Mizzou, I made a red heart 
+      that says "I love you, dawg". I used this opportunity to send this funny file to a 
+      friend of mine that also uses python.    
+    </p>
+    <h5>
+      here is a snippet of the code for this project in Python.
+    </h5>
+    
+    
+   <pre class="line-numbers">
+   <code class="language-css">
+            import turtle
+      pen=turtle.Turtle()
+
+      def curve():
+          for i in range (200):
+
+              pen.right(1)
+                pen.forward(1)
+
+      def heart():
+          pen.fillcolor('red')
+          pen.begin_fill()
+
+          pen.left(140)
+          pen.forward(113)
+                  
+          curve()
+          pen.left(120)
+
+          curve()
+          pen.forward(112)
+          pen.end_fill()
+
+      def txt():
+          pen.up()
+          pen.setpos(-68,95)
+          pen.down()
+          pen.color('pink')
+          pen.write("Love you, Dawg", font=("verdana", 14, "bold"))
+    
+      heart()
+
+      txt()
+
+      pen.ht()
+                  
+   </code>
+</pre>    
