@@ -1,0 +1,15 @@
+body {
+    background-color: grey;
+}
+  
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+#myDiv{
+  background-color: blue;
+  border-style: dotted;
+  border-color: gold;
+}
+© 2021 GitHub, Inc.
